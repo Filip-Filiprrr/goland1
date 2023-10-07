@@ -92,7 +92,7 @@ func partition(arr []int, low, high int) int {
 	}
 
 	arr[last], arr[high] = arr[high], arr[last]
-w	fmt.Printf("---> p=%d,l=%d,h=%d, arr=%+v\n", pivot, low, high, arr[low:high])
+	fmt.Printf("---> p=%d,l=%d,h=%d, arr=%+v\n", pivot, low, high, arr[low:high])
 	fmt.Printf("last: %d\n", last)
 	return last
 }
